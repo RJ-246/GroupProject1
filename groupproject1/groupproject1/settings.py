@@ -12,6 +12,9 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 
 from pathlib import Path
 import os
+import configparser
+config = configparser.ConfigParser()
+config.read('groupproject1/.conf')
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -75,10 +78,21 @@ WSGI_APPLICATION = 'groupproject1.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'donuts',
+        'USER' : config.get('database', 'DB_USER'),
+        'PASSWORD': config.get('database', 'DB_PASSWORD'),
+        'HOST': config.get('database', 'DB_HOST'),
+        'PORT' : '3306'
     }
 }
 
