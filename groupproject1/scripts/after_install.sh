@@ -7,14 +7,14 @@ sudo pkill -f runserver
 # sudo pkill -f tailwind
 # sudo pkill -f node
 
-cd /home/ec2-user/django-aws_cicd
+cd /home/ec2-user/groupproject1
 
 # activate virtual environment
-python3 -m venv venv
-source venv/bin/activate
+#python3 -m venv venv
+#source venv/bin/activate
 
-install requirements.txt
-pip install -r /home/ubuntu/django-aws_cicd/requirements.txt
+#install requirements.txt
+pip install -r /home/ec2-user/groupproject1/requirements.txt
 
 # run server
-screen -d -m python3 manage.py runserver 0:8000
+python3 manage.py runserver 0:80
