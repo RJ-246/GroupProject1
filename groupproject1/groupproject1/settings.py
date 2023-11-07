@@ -14,10 +14,10 @@ from pathlib import Path
 import os
 import configparser
 config = configparser.ConfigParser()
-config.read('groupproject1/.conf')
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+config.read(f'{BASE_DIR}/groupproject1/.conf')
 
 
 # Quick-start development settings - unsuitable for production
