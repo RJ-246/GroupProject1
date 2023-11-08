@@ -5,8 +5,6 @@ files:
     destination: /home/ec2-user
   - source: groupproject1/django.service
     destination: /etc/systemd/system/
-  - source: groupproject1/startup.sh
-    destination: /home/ec2-user
 hooks:
   AfterInstall:
     - location: scripts/after_install.sh
