@@ -24,3 +24,4 @@ hooks:
     - location: groupproject1/scripts/stop_server.sh
       timeout: 30
       runas: root
+#test commit
