@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # kill any servers that may be running in the background 
 sudo pkill -f runserver
@@ -16,5 +16,6 @@ cd /home/ec2-user/groupproject1
 #install requirements.txt
 pip install -r /home/ec2-user/groupproject1/requirements.txt
 
-# run server
-python3 manage.py runserver 0:80
+#refresh service daemon for django daemon
+systemctl daemon-reload
+systemctl enable django.service
