@@ -21,3 +21,4 @@ pip install -r /home/ec2-user/groupproject1/requirements.txt
 #refresh service daemon for django daemon
 systemctl daemon-reload
 systemctl enable django.service
+chmod +x /home/ec2-user/startup.sh
