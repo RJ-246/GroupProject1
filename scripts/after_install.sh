@@ -1,5 +1,7 @@
 #!/bin/bash
-
+sudo yum update
+sudo yum install -y python3 python3-dev python3-pip python3-venv
+pip install --user --upgrade virtualenv
 # kill any servers that may be running in the background 
 sudo pkill -f runserver
 
@@ -19,3 +21,4 @@ pip install -r /home/ec2-user/groupproject1/requirements.txt
 #refresh service daemon for django daemon
 systemctl daemon-reload
 systemctl enable django.service
+chmod +x /home/ec2-user/startup.sh
