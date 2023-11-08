@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 sudo rm -rf /home/ec2-user/
+sudo rm -f /etc/systemd/system/django.service
 
 # clean codedeploy-agent files for a fresh install
 
