@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+sudo rm -rf /home/ec2-user/
 
 # clean codedeploy-agent files for a fresh install
 
