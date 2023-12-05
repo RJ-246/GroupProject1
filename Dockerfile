@@ -7,6 +7,7 @@ RUN apt-get update \
 
 WORKDIR /usr/src/app
 COPY requirements.txt ./
+RUN pwd && ls
 RUN pip install -r requirements.txt
 COPY . .
 
