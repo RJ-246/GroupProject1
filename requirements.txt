@@ -1,6 +1,6 @@
 asgiref==3.7.2
 attrs==20.3.0
-aws-cfn-bootstrap==2.0
+aws-cfn-bootstrap
 awscli==2.9.19
 awscrt==0.16.7
 Babel==2.9.1
