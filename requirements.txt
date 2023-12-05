@@ -7,7 +7,7 @@ Babel==2.9.1
 cffi==1.14.5
 chardet==4.0.0
 chevron==0.13.1
-cloud-init
+# cloud-init
 colorama==0.4.4
 configobj==5.0.6
 configparser==6.0.0
@@ -16,7 +16,7 @@ dbus-python==1.2.18
 distro==1.5.0
 Django==4.2.6
 docutils==0.16
-ec2-hibinit-agent
+# ec2-hibinit-agent
 gpg==1.15.1
 idna==2.10
 Jinja2==2.11.3
