@@ -1,9 +1,9 @@
 asgiref==3.7.2
 attrs==20.3.0
-aws-cfn-bootstrap
-awscli
-awscrt
-Babel==2.9.1
+# aws-cfn-bootstrap
+# awscli
+# awscrt
+# Babel==2.9.1
 cffi==1.14.5
 chardet==4.0.0
 chevron==0.13.1
