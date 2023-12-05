@@ -12,25 +12,25 @@ colorama==0.4.4
 configobj==5.0.6
 configparser==6.0.0
 cryptography==36.0.1
-dbus-python==1.2.18
-distro==1.5.0
+# dbus-python==1.2.18
+# distro==1.5.0
 Django==4.2.6
-docutils==0.16
+# docutils==0.16
 # ec2-hibinit-agent
 # gpg==1.15.1
-idna==2.10
-Jinja2==2.11.3
-jmespath==0.10.0
-jsonpatch==1.21
-jsonpointer==2.0
-jsonschema==3.2.0
+# idna==2.10
+# Jinja2==2.11.3
+# jmespath==0.10.0
+# jsonpatch==1.21
+# jsonpointer==2.0
+# jsonschema==3.2.0
 # libcomps==0.1.18
 lockfile==0.12.2
 MarkupSafe==1.1.1
 netifaces==0.10.6
 oauthlib==3.0.2
 ply==3.11
-prettytable==0.7.2
+# prettytable==0.7.2
 prompt-toolkit==3.0.24
 pycparser==2.20
 PyMySQL==1.1.0
@@ -39,7 +39,7 @@ pyserial==3.4
 PySocks==1.7.1
 python-daemon==2.3.0
 python-dateutil==2.8.1
-pytz==2022.7.1
+# pytz==2022.7.1
 # PyYAML==5.4.1
 # release-notification==1.2
 requests==2.25.1
